@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    "add-module-exports",
+    "transform-async-to-generator",
+    "transform-runtime"
+  ]
+}
