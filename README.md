@@ -9,6 +9,9 @@ You can download this app by doing one of the following:
 
 Once you've downloaded the app, run `npm install` to get the necessary dependencies for the project.
 
+### Starting the server
+Once you have all your dependencies installed, you can run `npm start` to start the server and then you can head over to [localhost:3000](http://localhost:3000)
+
 ### Usage
 If you want to change the templating engine, simply remove `jade` from the dependencies and change the extension from `'jade'` to whatever you want to use in the `app.js` file.
 
