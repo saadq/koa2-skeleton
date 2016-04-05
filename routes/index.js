@@ -10,4 +10,3 @@ router.get('/about', async ctx => {
 })
 
 export default router
-
