@@ -9,4 +9,4 @@ router.get('/about', async ctx => {
   await ctx.render('about')
 })
 
-export default router.routes
+export default router.routes()
