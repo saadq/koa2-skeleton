@@ -8,8 +8,8 @@ const app = new Koa()
 
 app.use(views(`${__dirname}/views`, { extension: 'jade' }))
 app.use(serve(`${__dirname}/public`))
-app.use(rootRoutes)
-app.use(userRoutes)
+app.use(rootRoutes.routes())
+app.use(userRoutes.routes())
 
 app.listen(3000, () => {
   console.log('Server running at http://localhost:3000')

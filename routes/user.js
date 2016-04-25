@@ -6,4 +6,4 @@ router.get('/:name', async ctx => {
   await ctx.render('user', { user })
 })
 
-export default router.routes()
+export default router
