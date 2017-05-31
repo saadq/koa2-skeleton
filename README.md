@@ -1,3 +1,6 @@
+**Deprecated**
+`async/await` is now natively supported in Node as of v7.6, so you don't need to use babel for your project.
+
 # Koa v2 Skeleton
 > A simple boilerplate for creating a web-app with Koa 2.
 
